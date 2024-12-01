@@ -3,8 +3,6 @@
 import { useState } from "react";
 import { Blogs } from "@/app/components/blog";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { Link } from "lucide-react";
 
 export default function FeaturedBlog() {
   const [visiblePosts, setVisiblePosts] = useState(4);
