@@ -5,7 +5,6 @@ import Link from "next/link";
 import { Menu, Search } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
 
 export default function Navbar() {
   const [searchOpen, setSearchOpen] = useState(false);
