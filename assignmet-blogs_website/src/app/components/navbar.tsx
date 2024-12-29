@@ -23,7 +23,7 @@ export default function Navbar() {
       height={50}
       className="object-contain" // Ensure the image maintains its aspect ratio
     />
-    <p className="text-[18px] font-extrabold text-gray-800">Eshop</p>
+    <p className="text-[18px] font-extrabold text-gray-800">BlogWeb</p>
 
   {/* Right: Search Icon for Large Screens */}
   <div className="hidden md:block relative ml-auto">
